@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/d3b632dc47.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Luka Bugarin</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="images/front.jpg" alt="a picture of Luka Bugarin" class="intro__img">
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What i learned so far</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Web design fundamentals</h3>
+        <p>Solid knowledge of HTTP,HTML5,CSS3,SASS,Bootstrap and GIT version control.</p>
+      </div>
+      <!-- / service -->
+
+      <div class="service">
+        <h3>JavaScript programming</h3>
+        <p>JavaScript procedural programming and fundamentals of OOP, TypeScript types and classes,Angular7 JavaScript framework,SPA.</p>
+      </div>
+      <!-- / service -->
+
+      <div class="service">
+        <h3>Python 3.7 </h3>
+        <p>Fundamentals of Python syntax,OOP,Python frameworks(Django and Flask).</p>
+      </div>
+      <!-- / service -->
+    </div>  <!-- / services -->
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Designer & developer based in Novi Sad</p>
+
+    <div class="about-me__body">
+      <p>In the year of 2018 I discovered Front End and since then I have been dedicating my attention to working on it.Soon after watching tutorials and online courses I decided to take up a informatics course on the university of Technical Science for Front End in Novi Sad.I successfully finished the course in July 2019.After a short break i decided to make my own application using Angular.The application can be found on my github in the repository by the name BeerShop.Currently I am looking for a practice or a job in junior position.I believe that is a necessary next step in improving my skills therefore speeding up my progress.Experience from the older colleagues is of great importance.It is up to me to make the best of my current knowledge and from the acquired skills from the practice or job than can benefit both sides and make your company grow even more.It is up to You to give me a change to prove myself.</p>
+      <p></p>
+    </div>
+
+    <img src="images/99.jpg" alt="Luka leaning against a bus" class="about-me__img">
+  </section>
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title--work">My work</h2>
+    <p class="section__subtitle--work">A selection of my range of work</p>
+    <div class="portfolio">
+      
+      <!-- Portfolio item 01 -->
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="images/4.png" alt="" class="portfolio__img">
+      </a>
+
+       <!-- Portfolio item 02 -->
+       <a href="portfolio-item2.html" class="portfolio__item">
+        <img src="images/5.jpg" alt="" class="portfolio__img">
+      </a>
+
+       <!-- Portfolio item 03 -->
+       <a href="portfolio-item3.jpg" class="portfolio__item">
+        <img src="images/6.jpg" alt="" class="portfolio__img">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:lukabugarin6@gmail.com" class="footer__link">lukabugarin6@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item"><a href="https://linkedin.com" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+      <li class="social-list__item"><a href="https://instagram.com" class="social-list__link"><i class="fab fa-instagram"></i></a></li>
+      <li class="social-list__item"><a href="https://twitter.com" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+      <li class="social-list__item"><a href="https://github.com" class="social-list__link"><i class="fab fa-github"></i></a></li>
+    </ul>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
